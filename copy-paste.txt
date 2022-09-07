@@ -1,0 +1,16 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/disk-space-check.sh
+
+[Install]
+WantedBy=default.target
+
+
+#!/bin/bash
+
+date > /root/disk_space_report.txt
+du -sh /home/ >> /root/disk_space_report.txt
+
+
