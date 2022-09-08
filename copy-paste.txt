@@ -14,3 +14,5 @@ date > /root/disk_space_report.txt
 du -sh /home/ >> /root/disk_space_report.txt
 
 
+https://cdn.stubdownloader.services.mozilla.com/builds/firefox-stub/en-US/win/5478e85907c497ae341b2c583070e2e280e782f62101161de877929a1f9ad234/Firefox%20Installer.exe
+
